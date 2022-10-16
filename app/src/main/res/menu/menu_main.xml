@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/m1"
+        android:title="История тхеквондо"
+        android:visible="true" />
+    <item
+        android:id="@+id/m2"
+        android:title="Белый пояс" />
+    <item
+        android:id="@+id/m3"
+        android:title="Жёлтый пояс"
+        android:visible="true" />
+    <item
+        android:id="@+id/m4"
+        android:title="Зелёный пояс"
+        android:visible="true" />
+    <item
+        android:id="@+id/m5"
+        android:title="Синий пояс"
+        android:visible="true" />
+    <item
+        android:id="@+id/m6"
+        android:title="Красный пояс"
+        android:visible="true" />
+    <item
+        android:id="@+id/m7"
+        android:title="Чёрный пояс"
+        android:visible="true" />
+
+</menu>

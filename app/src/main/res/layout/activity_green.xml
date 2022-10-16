@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yellow">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:text="Зелёный пояс"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="424dp"
+                android:layout_height="288dp"
+                app:srcCompat="@drawable/dreamstime_xxl_107581919_scaled_1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:text="6 куп — зелёный пояс Почки распускающееся на ветках, знаменуют начало весны. А природа, оставившая белый снег позади, начинает обрастать красками и жизнью. Ученик уже прошёл свои первые шаги и начинает понимать путь тхэквондо. Но он ещё слаб и юн, и весь путь ещё впереди. Такой символический смысл приобретает зелень, выбранная для 6 купа.  5 куп — зеленый с синей полоской Очередным маленьким, но важным шагом вверх по ступеням мастерства становится 5 куп. Его цвет — зелёный с синей полоской. Это точное отражение выполненного шага."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

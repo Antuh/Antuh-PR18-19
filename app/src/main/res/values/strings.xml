@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Antuh-PR18.19</string>
+    <string name="action_one">История тхэевондо</string>
+    <string name="action_two">Белый пояс</string>
+    <string name="action_three">Жёлтый пояс</string>
+    <string name="action_four">Зелёный пояс</string>
+</resources>

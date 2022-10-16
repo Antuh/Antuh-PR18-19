@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yellow">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:text="Жёлтый пояс"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="424dp"
+                android:layout_height="284dp"
+                app:srcCompat="@drawable/_1f762dda0da087119fd4f90e9283442" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:text="8 куп — жёлтый пояс Как восходящее солнце над горизонтом начинает освещать землю и знаменует начало дня, так и ученик начинает видеть и понимать путь, который предстоит ему пройти и делает по нему первые шаги. Цвет солнца, выбранный для 8 купа, осветит путь и поможет пройти по нему.  7 куп — желтый пояс с зеленой нашивкой Промежуточной ступенью к поясу новой расцветки становится зеленая нашивка. Она выполнена на желтом полотне и доступна тому, кто заслужил 7 куп."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
